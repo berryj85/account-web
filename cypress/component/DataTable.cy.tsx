@@ -4,10 +4,10 @@ describe("Component - DataTable", () => {
     it("should render data table correct", () => {
         //given
         const data = [
-            { id: 10, name: "Coffee", status: true },
-            { id: 11, name: "Food", status: false },
-            { id: 12, name: "Water", status: false },
-            { id: 13, name: "Electic", status: false }
+            { id: 1, name: "Coffee", status: true },
+            { id: 2, name: "Food", status: false },
+            { id: 3, name: "Water", status: false },
+            { id: 4, name: "Electronic", status: false }
         ]
 
         cy.mount(<DataTable data={data} />)
